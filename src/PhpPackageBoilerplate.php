@@ -1,8 +1,8 @@
 <?php
 
-namespace Sfneal\PhpPackageBoilerplate;
+namespace Sfneal\Queueables;
 
-class PhpPackageBoilerplate
+class Queueables
 {
     // Build your next great package.
 }
