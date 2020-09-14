@@ -9,8 +9,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 
 /**
- * Class Queueable
- * @package Sfneal\Queueables
+ * Class Queueable.
  */
 abstract class AbstractQueueable implements ShouldQueue
 {
