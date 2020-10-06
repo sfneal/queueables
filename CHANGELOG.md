@@ -14,5 +14,5 @@ All notable changes to `queueables` will be documented in this file
 - add support for Laravel 4 & php 5.3-7.1
 
 
-## 0.3.0 - 2020-10-06
+## 0.3.1 - 2020-10-06
 - bump laravel min version requirement to 4.1
