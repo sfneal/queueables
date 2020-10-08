@@ -30,6 +30,19 @@ jobs:
           dist: trusty
           env: COMPOSER_FLAGS="--prefer-lowest" COMPOSER_SELF_UPDATE_FLAGS="--snapshot"
 
+        - php: 7.4
+          env: COMPOSER_FLAGS="" COMPOSER_SELF_UPDATE_FLAGS="--preview"
+        - php: 7.4
+          env: COMPOSER_FLAGS="--prefer-lowest" COMPOSER_SELF_UPDATE_FLAGS="--preview"
+
+        - php: 8.0
+          env: COMPOSER_FLAGS="" COMPOSER_SELF_UPDATE_FLAGS="--preview"
+        - php: 8.0
+          env: COMPOSER_FLAGS="--prefer-lowest" COMPOSER_SELF_UPDATE_FLAGS="--preview"
+    allow_failures:
+        env: COMPOSER_SELF_UPDATE_FLAGS="--preview"
+        php: 8.0
+
 php:
     - 7.0
     - 7.1
