@@ -7,16 +7,6 @@ env:
 
 jobs:
     include:
-        - php: nightly
-          env: COMPOSER_FLAGS="" COMPOSER_SELF_UPDATE_FLAGS="--preview"
-        - php: nightly
-          env: COMPOSER_FLAGS="--prefer-lowest" COMPOSER_SELF_UPDATE_FLAGS="--preview"
-
-        - php: 8.0
-          env: COMPOSER_FLAGS="" COMPOSER_SELF_UPDATE_FLAGS="--preview"
-        - php: 8.0
-          env: COMPOSER_FLAGS="--prefer-lowest" COMPOSER_SELF_UPDATE_FLAGS="--preview"
-
         - php: 7.4
           env: COMPOSER_FLAGS="" COMPOSER_SELF_UPDATE_FLAGS="--preview"
         - php: 7.4
@@ -52,6 +42,8 @@ jobs:
         - php: nightly
 
 php:
+    - nightly
+    - 8.0
     - 7.4
     - 7.3
     - 7.2
