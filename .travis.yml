@@ -1,12 +1,16 @@
 language: php
 
 env:
+    COMPOSER_SELF_UPDATE_FLAGS=""
     matrix:
         - COMPOSER_FLAGS=""
         - COMPOSER_FLAGS="--prefer-lowest"
 
 jobs:
     include:
+        - php: 5.3
+          dist: precise
+          env: COMPOSER_FLAGS="" COMPOSER_SELF_UPDATE_FLAGS="--snapshot"
         - php: 5.4
           dist: trusty
           env: COMPOSER_FLAGS=""
@@ -19,7 +23,7 @@ jobs:
 
         - php: 5.3
           dist: precise
-          env: COMPOSER_FLAGS="--prefer-lowest"
+          env: COMPOSER_FLAGS="--prefer-lowest" COMPOSER_SELF_UPDATE_FLAGS="--snapshot"
         - php: 5.4
           dist: trusty
           env: COMPOSER_FLAGS="--prefer-lowest"
@@ -39,7 +43,7 @@ php:
 
 before_script:
     - echo "memory_limit=4096M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
-    - travis_retry composer self-update
+    - travis_retry composer self-update ${COMPOSER_SELF_UPDATE_FLAGS}
     - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-source
 
 script:
