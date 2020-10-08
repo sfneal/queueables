@@ -41,7 +41,6 @@ jobs:
         - php: 8.0
           env: COMPOSER_FLAGS="--prefer-lowest" COMPOSER_SELF_UPDATE_FLAGS="--preview"
     allow_failures:
-        env: COMPOSER_SELF_UPDATE_FLAGS="--preview"
         php: 8.0
 
 php:
