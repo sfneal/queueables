@@ -7,9 +7,6 @@ env:
 
 jobs:
     include:
-        - php: 5.3
-          dist: precise
-          env: COMPOSER_FLAGS="" COMPOSER_SELF_UPDATE_FLAGS="--snapshot"
         - php: 5.4
           dist: trusty
           env: COMPOSER_FLAGS=""
