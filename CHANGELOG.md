@@ -20,3 +20,8 @@ All notable changes to `queueables` will be documented in this file
 
 ## 0.3.2 - 2020-10-07
 - cut failing travis ci test using php 5.3
+
+
+## 0.3.3 - 2020-12-04
+- cut support for php5.3
+- optimize Travis CI test suite
