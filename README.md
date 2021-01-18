@@ -1,7 +1,8 @@
 # Queueables
 
+[![Packagist PHP support](https://img.shields.io/packagist/php-v/sfneal/queueables)](https://packagist.org/packages/sfneal/queueables)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sfneal/queueables.svg?style=flat-square)](https://packagist.org/packages/sfneal/queueables)
-[![Build Status](https://img.shields.io/travis/sfneal/queueables/master.svg?style=flat-square)](https://travis-ci.org/sfneal/queueables)
+[![Build Status](https://travis-ci.com/sfneal/queueables.svg?branch=master&style=flat-square)](https://travis-ci.com/sfneal/queueables)
 [![Quality Score](https://img.shields.io/scrutinizer/g/sfneal/queueables.svg?style=flat-square)](https://scrutinizer-ci.com/g/sfneal/queueables)
 [![Total Downloads](https://img.shields.io/packagist/dt/sfneal/queueables.svg?style=flat-square)](https://packagist.org/packages/sfneal/queueables)
 
