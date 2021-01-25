@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Sfneal\Queueables\Tests\Mocks;
-
 
 use Sfneal\Queueables\AbstractJob;
 
