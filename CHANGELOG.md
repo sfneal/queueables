@@ -29,3 +29,7 @@ All notable changes to `queueables` will be documented in this file
 
 ## 0.3.4 - 2020-12-11
 - cut support for php5.5 & lower
+
+
+## 0.4.0 - 2021-01-25 (rc)
+- add test suite with mock queueables
