@@ -36,3 +36,4 @@ All notable changes to `queueables` will be documented in this file
 - add usage instructions to README
 - cut support for php5.6
 - bump min laravel/framework & phpunit versions
+- add QueueableTest for testing AbstractQueueable
