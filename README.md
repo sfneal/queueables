@@ -20,7 +20,20 @@ composer require sfneal/queueables
 ## Usage
 
 ``` php
-// Usage description here
+# Create a Job class
+use Sfneal\Queueables\AbstractJob;
+class ExampleJob extends AbstractJob
+{
+    /**
+     * Execute the job.
+     *
+     * @return mixed
+     */
+    public function handle()
+    {
+        return 'example job has been executed';
+    }
+}
 ```
 
 ### Testing
