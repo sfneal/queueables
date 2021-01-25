@@ -34,3 +34,5 @@ All notable changes to `queueables` will be documented in this file
 ## 0.4.0 - 2021-01-25 (rc)
 - add test suite with mock queueables
 - add usage instructions to README
+- cut support for php5.6
+- bump min laravel/framework & phpunit versions
