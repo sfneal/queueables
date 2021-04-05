@@ -37,3 +37,8 @@ All notable changes to `queueables` will be documented in this file
 - cut support for php5.6
 - bump min laravel/framework & phpunit versions
 - add QueueableTest for testing AbstractQueueable
+
+
+## 2.0.0 - 2021-04-05
+- refactor `AbstractJob` & `AbstractQueueable` to `Job` & `Queueable`
+- cut support for php7.0
