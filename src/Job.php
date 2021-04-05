@@ -2,7 +2,7 @@
 
 namespace Sfneal\Queueables;
 
-abstract class AbstractJob extends AbstractQueueable
+abstract class Job extends Queueable
 {
     // todo: add chain methods to Job class
 
