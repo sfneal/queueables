@@ -2,9 +2,9 @@
 
 namespace Sfneal\Queueables\Tests\Mocks;
 
-use Sfneal\Queueables\AbstractJob;
+use Sfneal\Queueables\Job;
 
-class SecondTestJob extends AbstractJob
+class SecondTestJob extends Job
 {
     public function handle()
     {

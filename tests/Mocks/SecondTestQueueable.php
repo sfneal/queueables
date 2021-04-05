@@ -2,9 +2,9 @@
 
 namespace Sfneal\Queueables\Tests\Mocks;
 
-use Sfneal\Queueables\AbstractQueueable;
+use Sfneal\Queueables\Queueable;
 
-class SecondTestQueueable extends AbstractQueueable
+class SecondTestQueueable extends Queueable
 {
     /**
      * Execute the job.

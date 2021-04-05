@@ -11,7 +11,7 @@ use Illuminate\Queue\SerializesModels;
 /**
  * Class Queueable.
  */
-abstract class AbstractQueueable implements ShouldQueue
+abstract class Queueable implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, QueueableTrait, SerializesModels;
 }
