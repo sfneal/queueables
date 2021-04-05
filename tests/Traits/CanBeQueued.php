@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Sfneal\Queueables\Tests\Traits;
-
 
 use Illuminate\Support\Facades\Queue;
 
