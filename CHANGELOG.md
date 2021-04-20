@@ -47,3 +47,4 @@ All notable changes to `queueables` will be documented in this file
 ## 2.0.1 - 2021-04-20
 - add sfneal/mock-models to dev requirements
 - make `TestCase` that enables queue faking using the `QueueFaker` trait
+- optimize Travis CI config & enable code coverage uploading
