@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Sfneal\Queueables\Tests;
-
 
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 use Sfneal\Queueables\Tests\Traits\CanBeQueued;
