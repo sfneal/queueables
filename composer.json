@@ -20,7 +20,8 @@
         "laravel/framework": ">=5.5"
     },
     "require-dev": {
-        "phpunit/phpunit": ">=6.0"
+        "phpunit/phpunit": ">=6.0",
+        "sfneal/mock-models": ">=0.2"
     },
     "autoload": {
         "psr-4": {
